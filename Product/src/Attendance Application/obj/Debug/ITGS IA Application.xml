@@ -1,0 +1,1400 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ITGSIAApplication
+</name>
+</assembly>
+<members>
+<member name="T:ITGS_IA_Application.abisattendancesystemDataSet.bluedolphinsdataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.bluedolphinsrecordsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.bluedolphinsrosterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.greenleopardsdataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.greenleopardsrecordsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.greenleopardsrosterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.logininformationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.redfalconsdataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.redfalconsrecordsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.redfalconsrosterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.yellowfoxesdataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.yellowfoxesrecordsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.yellowfoxesrosterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.bluedolphinsdataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.bluedolphinsrecordsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.bluedolphinsrosterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.greenleopardsdataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.greenleopardsrecordsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.greenleopardsrosterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.logininformationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.redfalconsdataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.redfalconsrecordsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.redfalconsrosterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.yellowfoxesdataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.yellowfoxesrecordsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.yellowfoxesrosterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.bluedolphinsdataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.bluedolphinsrecordsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.bluedolphinsrosterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.greenleopardsdataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.greenleopardsrecordsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.greenleopardsrosterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.logininformationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.redfalconsdataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.redfalconsrecordsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.redfalconsrosterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.yellowfoxesdataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.yellowfoxesrecordsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet.yellowfoxesrosterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.bluedolphinsdataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.bluedolphinsrecordsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.bluedolphinsrosterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.greenleopardsdataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.greenleopardsrecordsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.greenleopardsrosterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.logininformationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.redfalconsdataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.redfalconsrecordsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.redfalconsrosterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.yellowfoxesdataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.yellowfoxesrecordsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.yellowfoxesrosterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ITGS_IA_Application.abisattendancesystemDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ITGS_IA_Application.abisattendancesystemDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ITGS_IA_Application.abisattendancesystemDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.TableAdapterManager.UpdateAll(ITGS_IA_Application.abisattendancesystemDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.bluedolphinsdataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.bluedolphinsrecordsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.bluedolphinsrosterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.greenleopardsdataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.greenleopardsrecordsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.greenleopardsrosterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.logininformationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.redfalconsdataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.redfalconsrecordsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.redfalconsrosterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.yellowfoxesdataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.yellowfoxesrecordsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.yellowfoxesrosterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.bluedolphinsdataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.bluedolphinsrecordsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.bluedolphinsrosterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.greenleopardsdataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.greenleopardsrecordsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.greenleopardsrosterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.logininformationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.redfalconsdataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.redfalconsrecordsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.redfalconsrosterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.yellowfoxesdataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.yellowfoxesrecordsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.yellowfoxesrosterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.bluedolphinsdataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.bluedolphinsrecordsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.bluedolphinsrosterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.greenleopardsdataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.greenleopardsrecordsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.greenleopardsrosterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.logininformationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.redfalconsdataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.redfalconsrecordsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.redfalconsrosterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.yellowfoxesdataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.yellowfoxesrecordsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1.yellowfoxesrosterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.bluedolphinsdataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.bluedolphinsrecordsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.bluedolphinsrosterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.greenleopardsdataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.greenleopardsrecordsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.greenleopardsrosterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.logininformationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.redfalconsdataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.redfalconsrecordsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.redfalconsrosterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.yellowfoxesdataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.yellowfoxesrecordsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.yellowfoxesrosterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(ITGS_IA_Application.abisattendancesystemDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(ITGS_IA_Application.abisattendancesystemDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(ITGS_IA_Application.abisattendancesystemDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.TableAdapterManager.UpdateAll(ITGS_IA_Application.abisattendancesystemDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.actorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.addressDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.categoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.cityDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.countryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.customerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.filmDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.film_actorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.film_categoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.film_textDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.inventoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.languageDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.paymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.rentalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.staffDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.storeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.actorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.addressRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.categoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.cityRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.countryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.customerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.filmRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.film_actorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.film_categoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.film_textRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.inventoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.languageRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.paymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.rentalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.staffRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.storeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.actorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.addressRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.categoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.cityRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.countryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.customerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.filmRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.film_actorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.film_categoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.film_textRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.inventoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.languageRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.paymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.rentalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.staffRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet.storeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.actorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.addressTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.categoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.cityTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.countryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.customerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.filmTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.film_actorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.film_categoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.film_textTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.inventoryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.languageTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.paymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.rentalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.staffTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.storeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ITGS_IA_Application.sakilaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ITGS_IA_Application.sakilaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ITGS_IA_Application.sakilaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ITGS_IA_Application.sakilaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ITGS_IA_Application.sakilaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ITGS_IA_Application.sakilaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ITGS_IA_Application.sakilaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ITGS_IA_Application.sakilaDataSetTableAdapters.TableAdapterManager.UpdateAll(ITGS_IA_Application.sakilaDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ITGS_IA_Application.sakilaDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Abdallah_Al_Handasi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Abhishek_Warrier">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Aisha_Al_Maqbali">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Akram_Aykour">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Alex_Watts">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Andee_Kirsten_Torres">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Andrea_Gail_Legaspi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Antonio_Alec_Gemarino">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Aqeel_Jacobs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Caitlyn_Gomez">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Christine_Nolido">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Courtney_Healy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.David_Tomalin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Eunhye_Hwang">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Fiza_Dar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Floreiniel_Alfonso">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Gabriel_Santos">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Hadeel_Al_Mamari">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Hannah_Willis">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Harshit_Sharma">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Hoor_Al_Ghaithi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Isaac_Carberry">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Ishtiaq_Jacobs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Israa_Al_Maqbali">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Jaira_Gemarino">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Jake_Marshall">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Jelani_Jed_Gemarino">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Julio_Gonzalez">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Kameron_Masoner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Karen_Mathews">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Kerry_Ann_Benjamin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Klint_John_Marino">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Mayar_Barakat">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Michael_Ridgway">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Nicole_Alfonso">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Noaf_Al_Balushi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Omar_Al_Shirawi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Prishanthi_Govender">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Rafael_Vinci">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Saif_Al_Shibli">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Sanna_Persterer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Sara_Barendregt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.School_Logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Shalin_Govender">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Shamma_Al_Shibli">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Sulaiman_Al_Saidi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Sultan_Al_Zefeiti">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Tahlyn_Chetty">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Taif_Al_Balushi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Taya_Masoner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Teja_Tiriveedhi">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Trina_De_Vera">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Trisha_Centino">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Wi_aam_Jacobs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Willem_Alberts">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Yann_Rival">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Zeyad_Barakat">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:ITGS_IA_Application.My.Resources.Resources.Zyrelle_Queen_Marino">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:ITGS_IA_Application.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:ITGS_IA_Application.DataforReports.bluedolphinsdataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.DataforReports.DataTable1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.DataforReports.bluedolphinsdataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.DataforReports.DataTable1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.DataforReports.bluedolphinsdataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.DataforReports.DataTable1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.DataforReports">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ITGS_IA_Application.DataforReportsTableAdapters.bluedolphinsdataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ITGS_IA_Application.DataforReportsTableAdapters.TableAdapterManager.UpdateUpdatedRows(ITGS_IA_Application.DataforReports,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ITGS_IA_Application.DataforReportsTableAdapters.TableAdapterManager.UpdateInsertedRows(ITGS_IA_Application.DataforReports,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ITGS_IA_Application.DataforReportsTableAdapters.TableAdapterManager.UpdateDeletedRows(ITGS_IA_Application.DataforReports,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ITGS_IA_Application.DataforReportsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ITGS_IA_Application.DataforReportsTableAdapters.TableAdapterManager.UpdateAll(ITGS_IA_Application.DataforReports)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ITGS_IA_Application.DataforReportsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ITGS_IA_Application.DataforReportsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ITGS_IA_Application.DataforReportsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet3.bluedolphinsdataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet3.bluedolphinsdataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet3.bluedolphinsdataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet3TableAdapters.bluedolphinsdataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(ITGS_IA_Application.abisattendancesystemDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(ITGS_IA_Application.abisattendancesystemDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(ITGS_IA_Application.abisattendancesystemDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSet3TableAdapters.TableAdapterManager.UpdateAll(ITGS_IA_Application.abisattendancesystemDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.bluedolphinsdataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.bluedolphinsrecordsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.bluedolphinsrosterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.greenleopardsdataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.greenleopardsrecordsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.greenleopardsrosterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.logininformationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.redfalconsdataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.redfalconsrecordsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.redfalconsrosterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.yellowfoxesdataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.yellowfoxesrecordsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.yellowfoxesrosterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.bluedolphinsdataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.bluedolphinsrecordsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.bluedolphinsrosterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.greenleopardsdataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.greenleopardsrecordsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.greenleopardsrosterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.logininformationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.redfalconsdataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.redfalconsrecordsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.redfalconsrosterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.yellowfoxesdataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.yellowfoxesrecordsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.yellowfoxesrosterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.bluedolphinsdataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.bluedolphinsrecordsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.bluedolphinsrosterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.greenleopardsdataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.greenleopardsrecordsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.greenleopardsrosterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.logininformationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.redfalconsdataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.redfalconsrecordsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.redfalconsrosterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.yellowfoxesdataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.yellowfoxesrecordsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2.yellowfoxesrosterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.bluedolphinsdataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.bluedolphinsrecordsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.bluedolphinsrosterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.greenleopardsdataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.greenleopardsrecordsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.greenleopardsrosterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.logininformationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.redfalconsdataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.redfalconsrecordsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.redfalconsrosterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.yellowfoxesdataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.yellowfoxesrecordsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.yellowfoxesrosterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(ITGS_IA_Application.abisattendancesystemDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(ITGS_IA_Application.abisattendancesystemDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(ITGS_IA_Application.abisattendancesystemDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.TableAdapterManager.UpdateAll(ITGS_IA_Application.abisattendancesystemDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ITGS_IA_Application.abisattendancesystemDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ITGS_IA_Application.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

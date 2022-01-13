@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DCE55235-2750-475F-8944-A57F958DAE28}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ITGS_IA_Application.My.MyApplication</StartupObject>
+    <RootNamespace>ITGS_IA_Application</RootNamespace>
+    <AssemblyName>ITGS IA Application</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ITGS IA Application.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ITGS IA Application.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="abisattendancesystemDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>abisattendancesystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="abisattendancesystemDataSet.vb">
+      <DependentUpon>abisattendancesystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="abisattendancesystemDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>abisattendancesystemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="abisattendancesystemDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>abisattendancesystemDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="abisattendancesystemDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>abisattendancesystemDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="About Application.Designer.vb">
+      <DependentUpon>About Application.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About Application.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add Student Admin.Designer.vb">
+      <DependentUpon>Add Student Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Add Student Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Attendance Chart or Graph.Designer.vb">
+      <DependentUpon>Admin Attendance Chart or Graph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Attendance Chart or Graph.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin Control.Designer.vb">
+      <DependentUpon>Admin Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin Control.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attendance Chart or Graph.Designer.vb">
+      <DependentUpon>Attendance Chart or Graph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance Chart or Graph.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Blue Team Attendance Form.Designer.vb">
+      <DependentUpon>Blue Team Attendance Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Blue Team Attendance Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataforReports.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataforReports.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataforReports.vb">
+      <DependentUpon>DataforReports.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Red Team Attendance Form.Designer.vb">
+      <DependentUpon>Red Team Attendance Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Red Team Attendance Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report Viewer and Generator.Designer.vb">
+      <DependentUpon>Report Viewer and Generator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report Viewer and Generator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sakilaDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sakilaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher Control Panel.Designer.vb">
+      <DependentUpon>Teacher Control Panel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher Control Panel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher View Records.Designer.vb">
+      <DependentUpon>Teacher View Records.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher View Records.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher View Roster Form.Designer.vb">
+      <DependentUpon>Teacher View Roster Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher View Roster Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View Records.Designer.vb">
+      <DependentUpon>View Records.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View Records.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View Students.Designer.vb">
+      <DependentUpon>View Students.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View Students.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Green Team Attendance Form.Designer.vb">
+      <DependentUpon>Green Team Attendance Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Green Team Attendance Form.vb" />
+    <Compile Include="Yellow Team Attendance Form.Designer.vb">
+      <DependentUpon>Yellow Team Attendance Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Yellow Team Attendance Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About Application.resx">
+      <DependentUpon>About Application.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add Student Admin.resx">
+      <DependentUpon>Add Student Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Attendance Chart or Graph.resx">
+      <DependentUpon>Admin Attendance Chart or Graph.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin Control.resx">
+      <DependentUpon>Admin Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Attendance Chart or Graph.resx">
+      <DependentUpon>Attendance Chart or Graph.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Blue Team Attendance Form.resx">
+      <DependentUpon>Blue Team Attendance Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Red Team Attendance Form.resx">
+      <DependentUpon>Red Team Attendance Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report Viewer and Generator.resx">
+      <DependentUpon>Report Viewer and Generator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher Control Panel.resx">
+      <DependentUpon>Teacher Control Panel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher View Records.resx">
+      <DependentUpon>Teacher View Records.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher View Roster Form.resx">
+      <DependentUpon>Teacher View Roster Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Records.resx">
+      <DependentUpon>View Records.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Students.resx">
+      <DependentUpon>View Students.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Green Team Attendance Form.resx">
+      <DependentUpon>Green Team Attendance Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yellow Team Attendance Form.resx">
+      <DependentUpon>Yellow Team Attendance Form.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="abisattendancesystemDataSet.xsc">
+      <DependentUpon>abisattendancesystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="abisattendancesystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>abisattendancesystemDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="abisattendancesystemDataSet.xss">
+      <DependentUpon>abisattendancesystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="abisattendancesystemDataSet1.xsc">
+      <DependentUpon>abisattendancesystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="abisattendancesystemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>abisattendancesystemDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="abisattendancesystemDataSet1.xss">
+      <DependentUpon>abisattendancesystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="abisattendancesystemDataSet2.xsc">
+      <DependentUpon>abisattendancesystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="abisattendancesystemDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>abisattendancesystemDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="abisattendancesystemDataSet2.xss">
+      <DependentUpon>abisattendancesystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="abisattendancesystemDataSet3.xsc">
+      <DependentUpon>abisattendancesystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="abisattendancesystemDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>abisattendancesystemDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="abisattendancesystemDataSet3.xss">
+      <DependentUpon>abisattendancesystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataforReports.xsc">
+      <DependentUpon>DataforReports.xsd</DependentUpon>
+    </None>
+    <None Include="DataforReports.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataforReports.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataforReports.xss">
+      <DependentUpon>DataforReports.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="sakilaDataSet.xsc">
+      <DependentUpon>sakilaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sakilaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sakilaDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sakilaDataSet.xss">
+      <DependentUpon>sakilaDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\School Logo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aisha Al-Maqbali.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Akram Aykour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alex Watts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Andee Kirsten Torres.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Andrea Gail Legaspi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Antonio-Alec Gemarino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aqeel Jacobs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Caitlyn Gomez.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Christine Nolido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Courtney Healy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\David Tomalin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eunhye Hwang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fiza Dar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Floreiniel Alfonso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gabriel Santos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hadeel Al Mamari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hannah Willis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harshit Sharma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hoor Al Ghaithi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Isaac Carberry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ishtiaq Jacobs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Israa Al Maqbali.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jaira Gemarino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jake Marshall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jelani-Jed Gemarino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Julio Gonzalez.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kameron Masoner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Karen Mathews.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kerry-Ann Benjamin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Klint John Marino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mayar Barakat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Michael Ridgway.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nicole Alfonso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Noaf Al Balushi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Omar Al Shirawi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prishanthi Govender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rafael Vinci.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Saif Al-Shibli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sanna Persterer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sara Barendregt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shalin Govender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shamma Al-Shibli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sulaiman Al Saidi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sultan Al Zefeiti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tahlyn Chetty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taya Masoner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Teja Tiriveedhi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trina De Vera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trisha Centino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wi-aam Jacobs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Willem Alberts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yann Rival.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zeyad Barakat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zyrelle Queen Marino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abdallah Al Handasi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abhishek Warrier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taif Al Balushi.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

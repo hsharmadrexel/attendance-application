@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="abisattendancesystemDataSet4" targetNamespace="http://tempuri.org/abisattendancesystemDataSet4.xsd" xmlns:mstns="http://tempuri.org/abisattendancesystemDataSet4.xsd" xmlns="http://tempuri.org/abisattendancesystemDataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="abisattendancesystemConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="abisattendancesystemConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ITGS_IA_Application.My.MySettings.GlobalReference.Default.abisattendancesystemConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="bluedolphinsdataTableAdapter" GeneratorDataComponentClassName="bluedolphinsdataTableAdapter" Name="bluedolphinsdata" UserDataComponentName="bluedolphinsdataTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="abisattendancesystemConnectionString (MySettings)" DbObjectName="abisattendancesystem.bluedolphinsdata" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idbluedolphinsdata`, `StudentFirstName`, `StudentLastName`, `DaysPresent`, `DaysAbsent`, `DaysLate` FROM `bluedolphinsdata`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="greenleopardsdataTableAdapter" GeneratorDataComponentClassName="greenleopardsdataTableAdapter" Name="greenleopardsdata" UserDataComponentName="greenleopardsdataTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="abisattendancesystemConnectionString (MySettings)" DbObjectName="abisattendancesystem.greenleopardsdata" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idgreenleopardsdata`, `StudentFirstName`, `StudentLastName`, `DaysPresent`, `DaysAbsent`, `DaysLate` FROM `greenleopardsdata`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="redfalconsdataTableAdapter" GeneratorDataComponentClassName="redfalconsdataTableAdapter" Name="redfalconsdata" UserDataComponentName="redfalconsdataTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="abisattendancesystemConnectionString (MySettings)" DbObjectName="abisattendancesystem.redfalconsdata" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idredfalconsdata`, `StudentFirstName`, `StudentLastName`, `DaysPresent`, `DaysAbsent`, `DaysLate` FROM `redfalconsdata`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="yellowfoxesdataTableAdapter" GeneratorDataComponentClassName="yellowfoxesdataTableAdapter" Name="yellowfoxesdata" UserDataComponentName="yellowfoxesdataTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="abisattendancesystemConnectionString (MySettings)" DbObjectName="abisattendancesystem.yellowfoxesdata" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `idyellowfoxesdata`, `StudentFirstName`, `StudentLastName`, `DaysPresent`, `DaysAbsent`, `DaysLate` FROM `yellowfoxesdata`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="abisattendancesystemDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="abisattendancesystemDataSet4" msprop:Generator_UserDSName="abisattendancesystemDataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="bluedolphinsdata" msprop:Generator_TableClassName="bluedolphinsdataDataTable" msprop:Generator_TableVarName="tablebluedolphinsdata" msprop:Generator_TablePropName="bluedolphinsdata" msprop:Generator_RowDeletingName="bluedolphinsdataRowDeleting" msprop:Generator_RowChangingName="bluedolphinsdataRowChanging" msprop:Generator_RowEvHandlerName="bluedolphinsdataRowChangeEventHandler" msprop:Generator_RowDeletedName="bluedolphinsdataRowDeleted" msprop:Generator_UserTableName="bluedolphinsdata" msprop:Generator_RowChangedName="bluedolphinsdataRowChanged" msprop:Generator_RowEvArgName="bluedolphinsdataRowChangeEvent" msprop:Generator_RowClassName="bluedolphinsdataRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="greenleopardsdata" msprop:Generator_TableClassName="greenleopardsdataDataTable" msprop:Generator_TableVarName="tablegreenleopardsdata" msprop:Generator_TablePropName="greenleopardsdata" msprop:Generator_RowDeletingName="greenleopardsdataRowDeleting" msprop:Generator_RowChangingName="greenleopardsdataRowChanging" msprop:Generator_RowEvHandlerName="greenleopardsdataRowChangeEventHandler" msprop:Generator_RowDeletedName="greenleopardsdataRowDeleted" msprop:Generator_UserTableName="greenleopardsdata" msprop:Generator_RowChangedName="greenleopardsdataRowChanged" msprop:Generator_RowEvArgName="greenleopardsdataRowChangeEvent" msprop:Generator_RowClassName="greenleopardsdataRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="redfalconsdata" msprop:Generator_TableClassName="redfalconsdataDataTable" msprop:Generator_TableVarName="tableredfalconsdata" msprop:Generator_TablePropName="redfalconsdata" msprop:Generator_RowDeletingName="redfalconsdataRowDeleting" msprop:Generator_RowChangingName="redfalconsdataRowChanging" msprop:Generator_RowEvHandlerName="redfalconsdataRowChangeEventHandler" msprop:Generator_RowDeletedName="redfalconsdataRowDeleted" msprop:Generator_UserTableName="redfalconsdata" msprop:Generator_RowChangedName="redfalconsdataRowChanged" msprop:Generator_RowEvArgName="redfalconsdataRowChangeEvent" msprop:Generator_RowClassName="redfalconsdataRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="yellowfoxesdata" msprop:Generator_TableClassName="yellowfoxesdataDataTable" msprop:Generator_TableVarName="tableyellowfoxesdata" msprop:Generator_TablePropName="yellowfoxesdata" msprop:Generator_RowDeletingName="yellowfoxesdataRowDeleting" msprop:Generator_RowChangingName="yellowfoxesdataRowChanging" msprop:Generator_RowEvHandlerName="yellowfoxesdataRowChangeEventHandler" msprop:Generator_RowDeletedName="yellowfoxesdataRowDeleted" msprop:Generator_UserTableName="yellowfoxesdata" msprop:Generator_RowChangedName="yellowfoxesdataRowChanged" msprop:Generator_RowEvArgName="yellowfoxesdataRowChangeEvent" msprop:Generator_RowClassName="yellowfoxesdataRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
